@@ -2,16 +2,16 @@
 
 namespace Conceptlz\UnitConversation\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Conceptlz\UnitConversation\Weight;
+use PHPUnit\Framework\TestCase;
 
 class WeightTest extends TestCase
 {
     /** @test */
     public function is_convert_kg_to_lbs()
     {
-       $lbs = Weight::fromKilograms(100)->toLbs();
+        $lbs = Weight::fromKilograms(100)->toLbs();
 
-       $this->assertEquals(220.4623, $lbs);
+        $this->assertEquals(220.4623, $lbs);
     }
 }
