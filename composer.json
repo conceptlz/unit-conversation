@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "conceptlz/unit-conversation",
+    "description": "Unit Conversation Package",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "conceptlz",
+        "unit-conversation"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/conceptlz/unit-conversation",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Mansi Prajapati",
+            "email": "mansi@conceptualize.ae",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Conceptlz\\UnitConversation\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Conceptlz\\UnitConversation\\Tests\\": "tests"
         }
     },
     "scripts": {
