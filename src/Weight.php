@@ -10,6 +10,7 @@ class Weight
     {
         return new static($kilograms);
     }
+
     public function __construct(float $killograms)
     {
         $this->kilograms = $killograms;
